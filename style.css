@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-nav-ul,
+.second-nav-ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.logo{
+    height: 5vh;
+    width: 10vw;
+}
+
+.Log-in{
+    height: 5vh;
+    width: 5vw;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: #e60225;
+}
+
+.Sign-up{
+    height: 5vh;
+    width: 5vw;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    background-color: #e9e9e9;
+}
+.main-content-container{
+    margin-top: 200px;
+}
+
+
+.first-container,
+.second-container,
+.third-container,
+.fourth-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.first-container{
+    height: 160vh;
+    align-items: flex-start;
+
+
+
+}
+
+.second-container{
+    height: 115vh;
+    align-items: center;
+
+
+}
+
+.third-container{
+    height: 86vh;
+    align-self: flex-end;
+
+}
+
+.fourth-container{
+    height: 74vh;
+    align-self: flex-end;
+}
+
+
+
+.fourth-image-container,
+.third-image-container,
+.second-image-container,
+.first-image-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+
+
+.image{
+    width: 12.5vw;
+    height: 40vh;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+.circle{
+    position: fixed;
+    left: 50%;
+    bottom: 99px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ca9b2a;
+}
+
+footer{
+    box-shadow: 0px -20px 20px 9px #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 8vh;
+    background-color: #fffc91;
+}
