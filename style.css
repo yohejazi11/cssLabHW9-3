@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
 }
-
+header{
+    padding: 0 10px;
+}
 .main-nav{
     display: flex;
     justify-content: space-between;
@@ -32,6 +34,7 @@
     text-align: center;
     font-size: 47px;
     color: #ca9b2a;
+    margin-bottom: 10px;
 }
 .Log-in{
     height: 5vh;
