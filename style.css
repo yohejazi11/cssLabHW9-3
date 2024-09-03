@@ -23,7 +23,11 @@
     height: 5vh;
     width: 10vw;
 }
-
+.main-title{
+    margin: 0;
+    text-align: center;
+    font-size: 45px;
+}
 .Log-in{
     height: 5vh;
     width: 5vw;
